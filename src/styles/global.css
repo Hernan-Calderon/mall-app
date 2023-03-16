@@ -1,0 +1,12 @@
+/* ELIMINAMOS LOS ESTILOS DE NAVEGADOR */
+/*@import url("./reset.css");*/
+
+/* AÑADE AQUÍ TUS ESTILOS */
+
+.linkExterno {
+  color: white;
+  text-decoration: none;
+}
+.linkExterno:hover {
+  color: #ea868f;
+}
