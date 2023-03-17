@@ -34,7 +34,7 @@ function Home() {
         <br></br>
         <div className="row">
           <div className="col-6 col-md-4 col-xl-3">
-            <a href="https://tulopides.netlify.app">
+            <a href="https://tulopides-wokexpress.netlify.app/">
               <img
                 src={logo_1}
                 className="img-fluid shadow mb-4"
