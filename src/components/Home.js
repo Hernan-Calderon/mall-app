@@ -1,13 +1,12 @@
 import React from "react";
 
-import cc from "../images/cc.png";
-import logo_1 from "../images/logo_1.png";
-import logo_general from "../images/logo_general.png";
+import restaurante_1 from "../images/restaurante_1.png";
+import restaurante_2 from "../images/restaurante_2.png";
+import restaurante_3 from "../images/restaurante_3.png";
+import restaurante_4 from "../images/restaurante_4.png";
 import tuLoPides from "../images/TuLoPides.png";
 
-import Titulo from "./Titulo";
 import Barra from "./Barra";
-import Testimonios from "./Testimonios";
 import "../styles/global.css";
 
 function Home() {
@@ -22,86 +21,116 @@ function Home() {
             </h1>
           </div>
         </div>
-        <Titulo imagenTitulo={cc} />
         <br></br>
         <div className="row" style={{ background: "#FEEFEC" }}>
           <h5>
             A través de esta aplicación podrás realizar el pedido de tu comida
-            favorita en cualquiera de los restaurantes del Mall de comidas del
-            centro comercial Demo Plaza.
+            favorita en cualquiera de los restaurantes del Mall de comidas.
           </h5>
         </div>
         <br></br>
-        <div className="row">
-          <div className="col-6 col-md-4 col-xl-3">
-            <a href="https://tulopides-wokexpress.netlify.app/">
+
+        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 g-4">
+          <div className="col">
+            <div className="card h-100">
               <img
-                src={logo_1}
-                className="img-fluid shadow mb-4"
-                alt="Centro comercial"
-                style={{ cursor: "pointer" }}
+                src={restaurante_1}
+                className="card-img-top"
+                alt="Restaurante 1"
               />
-            </a>
+              <div className="card-body">
+                <h5 className="card-title">Restaurante 1</h5>
+                <p className="card-text">
+                  Comida rápida japonesa. Disfrute de la experiencia de ver su
+                  comida recién cocinada en nuestras planchas teppanyaki.
+                </p>
+              </div>
+              <div className="card-footer">
+                <a
+                  href="https://tulopides-restaurante-1.netlify.app/"
+                  className="btn btnPurple"
+                >
+                  Ir al Restaurante
+                </a>
+              </div>
+            </div>
           </div>
-
-          <div className="col-6 col-md-4 col-xl-3">
-            <img
-              src={logo_general}
-              className="img-fluid shadow mb-4"
-              alt="Centro comercial"
-            />
+          <div className="col">
+            <div className="card h-100">
+              <img
+                src={restaurante_2}
+                className="card-img-top"
+                alt="Restaurante 2"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Restaurante 2</h5>
+                <p className="card-text">
+                  Comida rápida estadounidense. Nuestros principales productos
+                  son las hamburguesas, las patatas fritas, los menús para el
+                  desayuno y los refrescos.
+                </p>
+              </div>
+              <div className="card-footer">
+                <a
+                  href="https://tulopides-restaurante-2.netlify.app/"
+                  className="btn btnPurple"
+                >
+                  Ir al Restaurante
+                </a>
+              </div>
+            </div>
           </div>
-
-          <div className="col-6 col-md-4 col-xl-3">
-            <img
-              src={logo_general}
-              className="img-fluid shadow mb-4"
-              alt="Centro comercial"
-            />
+          <div className="col">
+            <div className="card h-100">
+              <img
+                src={restaurante_3}
+                className="card-img-top"
+                alt="Restaurante 3"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Restaurante 3</h5>
+                <p className="card-text">
+                  Comida rápida italiana, especializada en la elaboración de
+                  pizzas.
+                </p>
+              </div>
+              <div className="card-footer">
+                <a
+                  href="https://tulopides-restaurante-3.netlify.app/"
+                  className="btn btnPurple"
+                >
+                  Ir al Restaurante
+                </a>
+              </div>
+            </div>
           </div>
-
-          <div className="col-6 col-md-4 col-xl-3">
-            <img
-              src={logo_general}
-              className="img-fluid shadow mb-4"
-              alt="Centro comercial"
-            />
-          </div>
-
-          <div className="col-6 col-md-4 col-xl-3">
-            <img
-              src={logo_general}
-              className="img-fluid shadow mb-4"
-              alt="Centro comercial"
-            />
-          </div>
-
-          <div className="col-6 col-md-4 col-xl-3">
-            <img
-              src={logo_general}
-              className="img-fluid shadow mb-4"
-              alt="Centro comercial"
-            />
-          </div>
-
-          <div className="col-6 col-md-4 col-xl-3">
-            <img
-              src={logo_general}
-              className="img-fluid shadow mb-4"
-              alt="Centro comercial"
-            />
-          </div>
-
-          <div className="col-6 col-md-4 col-xl-3">
-            <img
-              src={logo_general}
-              className="img-fluid shadow mb-4"
-              alt="Centro comercial"
-            />
+          <div className="col">
+            <div className="card h-100">
+              <img
+                src={restaurante_4}
+                className="card-img-top"
+                alt="Restaurante 4"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Restaurante 4</h5>
+                <p className="card-text">
+                  Comida rápida especializada en pollo frito. Disfrute de piezas
+                  de pollo crujientes que se preparan mediante fritura a
+                  presión.
+                </p>
+              </div>
+              <div className="card-footer">
+                <a
+                  href="https://tulopides-restaurante-4.netlify.app/"
+                  className="btn btnPurple"
+                >
+                  Ir al Restaurante
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-        <br></br>
-        <Testimonios></Testimonios>
+
         <br></br>
       </div>
       <footer className="bg-danger text-white">
@@ -117,7 +146,7 @@ function Home() {
             <div className="col-12 col-sm-6 col-lg-3 mb-4">
               <p className="h5">Contacto</p>
               <br></br>
-              <p className="mb-0">Centro Comercial Demo Plaza</p>
+              <p className="mb-0">Mall de Comidas</p>
               <p className="mb-0">Teléfono: 789456123</p>
             </div>
             <div className="col-12 col-lg-6 mb-4">
@@ -126,36 +155,35 @@ function Home() {
               <div className="row">
                 <div className="col-12 col-sm-4 mb-4">
                   <a
-                    href="https://tulopides.netlify.app"
+                    href="https://tulopides-wokexpress.netlify.app"
                     className="linkExterno"
                   >
-                    WOK EXPRESS
+                    Restaurante 1
                   </a>
-                  <p className="mb-0">Restaurant</p>
-                  <p className="mb-0">Restaurant</p>
-                  <p className="mb-0">Restaurant</p>
-                  <p className="mb-0">Restaurant</p>
-                  <p className="mb-0">Restaurant</p>
-                  <p className="mb-0">Restaurant</p>
+                  <br></br>
+                  <a
+                    href="https://tulopides-wokexpress.netlify.app"
+                    className="linkExterno"
+                  >
+                    Restaurante 2
+                  </a>
+                  <br></br>
+                  <a
+                    href="https://tulopides-wokexpress.netlify.app"
+                    className="linkExterno"
+                  >
+                    Restaurante 3
+                  </a>
+                  <br></br>
+                  <a
+                    href="https://tulopides-wokexpress.netlify.app"
+                    className="linkExterno"
+                  >
+                    Restaurante 4
+                  </a>
                 </div>
-                <div className="col-12 col-sm-4 mb-4">
-                  <p className="mb-0">Restaurant</p>
-                  <p className="mb-0">Restaurant</p>
-                  <p className="mb-0">Restaurant</p>
-                  <p className="mb-0">Restaurant</p>
-                  <p className="mb-0">Restaurant</p>
-                  <p className="mb-0">Restaurant</p>
-                  <p className="mb-0">Restaurant</p>
-                </div>
-                <div className="col-12 col-sm-4 mb-4">
-                  <p className="mb-0">Restaurant</p>
-                  <p className="mb-0">Restaurant</p>
-                  <p className="mb-0">Restaurant</p>
-                  <p className="mb-0">Restaurant</p>
-                  <p className="mb-0">Restaurant</p>
-                  <p className="mb-0">Restaurant</p>
-                  <p className="mb-0">Restaurant</p>
-                </div>
+                <div className="col-12 col-sm-4 mb-4"></div>
+                <div className="col-12 col-sm-4 mb-4"></div>
               </div>
             </div>
           </div>

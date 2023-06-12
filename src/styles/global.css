@@ -10,3 +10,12 @@
 .linkExterno:hover {
   color: #ea868f;
 }
+
+.btnPurple {
+  color: white;
+  background-color: #681c46;
+}
+.btnPurple:hover {
+  color: white;
+  background-color: #491632;
+}
